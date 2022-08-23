@@ -1,6 +1,7 @@
 import { Text, Container, Heading, Stack } from "@chakra-ui/react"
 import { TabList, Tabs, Tab, TabPanels, TabPanel } from "@chakra-ui/react"
-import {  Tweet } from 'react-twitter-widgets'
+import { Tweet } from 'react-twitter-widgets'
+import Youtube from "./Youtube"
 
 
 const Content = () => {
@@ -16,9 +17,16 @@ const Content = () => {
             </TabList>
             <TabPanels color='blackAlpha.500' >
                 <TabPanel>
-                    <Stack direction='column'>
-                        <Stack direction='row'>
-
+                    <Stack direction='column' spacing='2rem' >
+                        <Stack direction='row' spacing='2rem'>
+                            <Youtube id='Ee9vahkJIiw' />
+                            <Youtube id='RV7Y8xbRgCk' />
+                            <Youtube id='laep4_oSaO8' />
+                        </Stack>
+                        <Stack direction='row' spacing='2rem'>
+                            <Youtube id='gqj0PL2VOpE' />
+                            <Youtube id='QprhLBRVzUQ' />
+                            <Youtube id='I5af6kiEqVk' />
                         </Stack>
                     </Stack>
                 </TabPanel>
