@@ -21,7 +21,7 @@ const Intro = () => {
             <Heading color='#f26e94' align='center' size='md' >Amai Tsuna</Heading>
             <Text color='blackAlpha.300' fontSize='1.2rem' pt='2rem' >✦•·······································································································•✦•·······································································································•✦</Text>
             <Stack ref={ref} spacing='21rem' direction='row' pl='10rem' pr='10rem' mt='7rem' >
-                <Image src='/Tsuna_character.png' maxH='500px' minH='500px' maxW='353px' minW='353px' borderRadius='md' shadow='md'
+                <Image src='/Tsuna-Unofficial-Website/Tsuna_character.png' maxH='500px' minH='500px' maxW='353px' minW='353px' borderRadius='md' shadow='md'
                     style={ImgStyle}
                 />
                 <Stack direction='column' border='3px' p='2rem' minW='353px' borderRadius='md' shadow='md' 
