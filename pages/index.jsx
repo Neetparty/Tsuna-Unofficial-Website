@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>天愛つな Amai Tsuna | Unofficial Website</title>
         <meta name="description" content="Amai Tsuna | Unofficial Website" />
-        <link rel="icon" href="/tsuna_icon.png" />
+        <link rel="icon" href="/Tsuna-Unofficial-Website/tsuna_icon.png" />
       </Head>
       <Box ref={ref} maxH='max-content' >
         <Banner />

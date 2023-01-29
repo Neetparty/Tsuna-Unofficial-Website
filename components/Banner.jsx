@@ -4,7 +4,7 @@ const Banner = () => {
     
     return(
         <Box p='0' m='0' maxW='100%'>
-            <Image src="/banner.png" alt='Amai Tsuna'/>
+            <Image src="/Tsuna-Unofficial-Website/banner.png" alt='Amai Tsuna'/>
         </Box>
     )
 }
